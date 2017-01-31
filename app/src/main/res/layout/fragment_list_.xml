@@ -1,0 +1,18 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.rndroid.json_with_listview.List_Fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <Button
+        android:id="@+id/button_database"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get Contacts from Server" />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view_database"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
+</LinearLayout>
